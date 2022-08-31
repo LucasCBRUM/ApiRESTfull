@@ -1,0 +1,25 @@
+{
+  "name": "apirestfull",
+  "version": "0.0.1",
+  "description": "Fast RESTfull Api",
+  "main": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index"
+  },
+  "keywords": [
+    "Lucas",
+    "Brum",
+    "RESTfull",
+    "API"
+  ],
+  "author": "Lucas Brum",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "mongoose": "^6.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
